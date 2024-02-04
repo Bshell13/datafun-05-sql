@@ -13,3 +13,6 @@
 2024-02-03 12:50:02,937 - INFO - Creating database
 2024-02-03 12:50:02,937 - DEBUG - Debug creation of database
 2024-02-03 12:50:02,938 - INFO - Program ended
+2024-02-03 22:39:40,465 - INFO - Program started
+2024-02-03 22:39:40,470 - INFO - Creating database
+2024-02-03 22:39:40,481 - INFO - Program ended

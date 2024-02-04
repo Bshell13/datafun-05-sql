@@ -62,3 +62,241 @@
 2024-02-04 00:34:12,387 - INFO - Inserting data from CSV files
 2024-02-04 00:34:12,527 - INFO - Data inserted successfully.
 2024-02-04 00:34:12,528 - INFO - Program ended
+2024-02-04 01:02:51,719 - INFO - Program started
+2024-02-04 01:02:51,719 - INFO - Creating database
+2024-02-04 01:03:46,100 - INFO - Program started
+2024-02-04 01:03:46,104 - INFO - Creating database
+2024-02-04 01:04:54,885 - INFO - Program started
+2024-02-04 01:04:54,885 - INFO - Creating database
+2024-02-04 01:06:15,317 - INFO - Program started
+2024-02-04 01:06:15,320 - INFO - Creating database
+2024-02-04 01:06:15,321 - INFO - Database created successfully.
+2024-02-04 01:07:34,233 - INFO - Program started
+2024-02-04 01:07:34,235 - INFO - Creating database
+2024-02-04 01:07:34,236 - INFO - Database created successfully.
+2024-02-04 01:07:56,740 - INFO - Program started
+2024-02-04 01:07:56,741 - INFO - Creating database
+2024-02-04 01:07:56,741 - INFO - Database created successfully.
+2024-02-04 01:08:11,708 - INFO - Program started
+2024-02-04 01:08:11,709 - INFO - Creating database
+2024-02-04 01:08:11,709 - INFO - Database created successfully.
+2024-02-04 01:09:37,266 - INFO - Program started
+2024-02-04 01:09:37,268 - INFO - Creating database
+2024-02-04 01:09:37,269 - INFO - Database created successfully.
+2024-02-04 01:10:04,475 - INFO - Program started
+2024-02-04 01:10:04,476 - INFO - Creating database
+2024-02-04 01:10:04,479 - INFO - Database created successfully.
+2024-02-04 01:10:56,683 - INFO - Program started
+2024-02-04 01:10:56,684 - INFO - Creating database
+2024-02-04 01:10:56,685 - INFO - Database created successfully.
+2024-02-04 01:11:36,840 - INFO - Program started
+2024-02-04 01:11:36,841 - INFO - Creating database
+2024-02-04 01:11:36,842 - INFO - Database created successfully.
+2024-02-04 01:12:36,320 - INFO - Program started
+2024-02-04 01:12:36,324 - INFO - Creating database
+2024-02-04 01:12:36,327 - INFO - Database created successfully.
+2024-02-04 01:12:36,418 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:12:36,418 - INFO - Inserting data from CSV files
+2024-02-04 01:12:36,538 - INFO - Data inserted successfully.
+2024-02-04 01:12:36,556 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:12:36,627 - INFO - Executed SQL from: update_records.sql
+2024-02-04 01:12:36,642 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:12:36,642 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:12:36,642 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:12:36,642 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:12:56,419 - INFO - Program started
+2024-02-04 01:12:56,419 - INFO - Creating database
+2024-02-04 01:12:56,425 - INFO - Database created successfully.
+2024-02-04 01:12:56,493 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:12:56,493 - INFO - Inserting data from CSV files
+2024-02-04 01:12:56,586 - INFO - Data inserted successfully.
+2024-02-04 01:12:56,588 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:12:56,602 - INFO - Executed SQL from: update_records.sql
+2024-02-04 01:12:56,604 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:12:56,605 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:12:56,606 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:12:56,607 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:13:06,204 - INFO - Program started
+2024-02-04 01:13:06,204 - INFO - Creating database
+2024-02-04 01:13:06,208 - INFO - Database created successfully.
+2024-02-04 01:13:06,275 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:13:06,275 - INFO - Inserting data from CSV files
+2024-02-04 01:13:06,386 - INFO - Data inserted successfully.
+2024-02-04 01:13:06,388 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:13:06,401 - INFO - Executed SQL from: update_records.sql
+2024-02-04 01:13:06,403 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:13:06,404 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:13:06,405 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:13:06,405 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:13:06,405 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:13:06,406 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:13:06,406 - INFO - Program ended
+2024-02-04 01:18:15,817 - INFO - Program started
+2024-02-04 01:18:15,821 - INFO - Creating database
+2024-02-04 01:18:15,824 - INFO - Database created successfully.
+2024-02-04 01:18:15,916 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:18:15,916 - INFO - Inserting data from CSV files
+2024-02-04 01:18:16,034 - INFO - Data inserted successfully.
+2024-02-04 01:18:16,037 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:18:16,057 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:18:16,058 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:18:16,059 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:18:16,060 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:18:16,060 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:18:16,060 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:18:16,060 - INFO - Program ended
+2024-02-04 01:18:51,203 - INFO - Program started
+2024-02-04 01:18:51,207 - INFO - Creating database
+2024-02-04 01:18:51,208 - INFO - Database created successfully.
+2024-02-04 01:18:51,272 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:18:51,272 - INFO - Inserting data from CSV files
+2024-02-04 01:18:51,366 - INFO - Data inserted successfully.
+2024-02-04 01:18:51,368 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:18:51,393 - INFO - Executed SQL from: update_records.sql
+2024-02-04 01:18:51,396 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:18:51,396 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:18:51,397 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:18:51,397 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:18:51,398 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:18:51,399 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:18:51,399 - INFO - Program ended
+2024-02-04 01:22:23,613 - INFO - Program started
+2024-02-04 01:22:23,617 - INFO - Creating database
+2024-02-04 01:22:23,617 - INFO - Database created successfully.
+2024-02-04 01:22:23,678 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:22:23,678 - INFO - Inserting data from CSV files
+2024-02-04 01:22:23,809 - INFO - Data inserted successfully.
+2024-02-04 01:22:23,810 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:22:23,836 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:22:23,836 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:22:23,836 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:22:23,836 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:22:23,836 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:22:23,836 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:22:23,836 - INFO - Program ended
+2024-02-04 01:37:11,355 - INFO - Program started
+2024-02-04 01:37:11,360 - INFO - Creating database
+2024-02-04 01:37:11,370 - INFO - Database created successfully.
+2024-02-04 01:37:11,435 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:37:11,435 - INFO - Inserting data from CSV files
+2024-02-04 01:37:11,563 - INFO - Data inserted successfully.
+2024-02-04 01:37:11,565 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:37:11,581 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:37:11,581 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:37:11,581 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:37:11,583 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:37:11,583 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:37:11,584 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:37:11,584 - INFO - Program ended
+2024-02-04 01:38:16,349 - INFO - Program started
+2024-02-04 01:38:16,353 - INFO - Creating database
+2024-02-04 01:38:16,354 - INFO - Database created successfully.
+2024-02-04 01:38:16,441 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:38:16,441 - INFO - Inserting data from CSV files
+2024-02-04 01:38:16,607 - INFO - Data inserted successfully.
+2024-02-04 01:38:16,609 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:38:16,637 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:38:16,637 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:38:16,640 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:38:16,642 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:38:16,643 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:38:16,643 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:38:16,643 - INFO - Program ended
+2024-02-04 01:42:20,040 - INFO - Program started
+2024-02-04 01:42:20,043 - INFO - Creating database
+2024-02-04 01:42:20,043 - INFO - Database created successfully.
+2024-02-04 01:42:20,101 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:42:20,102 - INFO - Inserting data from CSV files
+2024-02-04 01:42:20,197 - INFO - Data inserted successfully.
+2024-02-04 01:42:20,200 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:42:20,215 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:42:20,216 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:42:20,216 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:42:20,217 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:42:20,217 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:42:20,217 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:42:20,217 - INFO - Program ended
+2024-02-04 01:42:55,635 - INFO - Program started
+2024-02-04 01:42:55,640 - INFO - Creating database
+2024-02-04 01:42:55,641 - INFO - Database created successfully.
+2024-02-04 01:42:55,715 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:42:55,715 - INFO - Inserting data from CSV files
+2024-02-04 01:42:55,818 - INFO - Data inserted successfully.
+2024-02-04 01:42:55,820 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:42:55,835 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:42:55,836 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:42:55,836 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:42:55,836 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:42:55,836 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:42:55,836 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:42:55,836 - INFO - Program ended
+2024-02-04 01:44:02,389 - INFO - Program started
+2024-02-04 01:44:02,389 - INFO - Creating database
+2024-02-04 01:44:02,393 - INFO - Database created successfully.
+2024-02-04 01:44:02,467 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:44:02,467 - INFO - Inserting data from CSV files
+2024-02-04 01:44:02,573 - INFO - Data inserted successfully.
+2024-02-04 01:44:02,576 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:44:02,603 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:44:02,604 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:44:02,605 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:44:02,605 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:44:02,605 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:44:02,605 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:44:02,605 - INFO - Program ended
+2024-02-04 01:44:33,497 - INFO - Program started
+2024-02-04 01:44:33,497 - INFO - Creating database
+2024-02-04 01:44:33,502 - INFO - Database created successfully.
+2024-02-04 01:44:33,575 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:44:33,576 - INFO - Inserting data from CSV files
+2024-02-04 01:44:33,689 - INFO - Data inserted successfully.
+2024-02-04 01:44:33,692 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:44:33,707 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:44:33,708 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:44:33,708 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:44:33,709 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:44:33,709 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:44:33,709 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:44:33,709 - INFO - Program ended
+2024-02-04 01:45:23,033 - INFO - Program started
+2024-02-04 01:45:23,036 - INFO - Creating database
+2024-02-04 01:45:23,037 - INFO - Database created successfully.
+2024-02-04 01:45:23,116 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:45:23,117 - INFO - Inserting data from CSV files
+2024-02-04 01:45:23,239 - INFO - Data inserted successfully.
+2024-02-04 01:45:23,243 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:45:23,273 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:45:23,274 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:45:23,276 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:45:23,278 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:45:23,278 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:45:23,278 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:45:23,278 - INFO - Program ended
+2024-02-04 01:45:45,446 - INFO - Program started
+2024-02-04 01:45:45,450 - INFO - Creating database
+2024-02-04 01:45:45,451 - INFO - Database created successfully.
+2024-02-04 01:45:45,525 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:45:45,525 - INFO - Inserting data from CSV files
+2024-02-04 01:45:45,621 - INFO - Data inserted successfully.
+2024-02-04 01:45:45,623 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:45:45,647 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:45:45,647 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:45:45,647 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:45:45,647 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:45:45,647 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:45:45,647 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:45:45,647 - INFO - Program ended
+2024-02-04 01:46:09,819 - INFO - Program started
+2024-02-04 01:46:09,819 - INFO - Creating database
+2024-02-04 01:46:09,824 - INFO - Database created successfully.
+2024-02-04 01:46:09,886 - INFO - Executed SQL from: create_tables.sql
+2024-02-04 01:46:09,886 - INFO - Inserting data from CSV files
+2024-02-04 01:46:09,998 - INFO - Data inserted successfully.
+2024-02-04 01:46:10,000 - INFO - Executed SQL from: insert_records.sql
+2024-02-04 01:46:10,016 - INFO - Executed SQL from: delete_records.sql
+2024-02-04 01:46:10,017 - INFO - Executed SQL from: query_aggregation.sql
+2024-02-04 01:46:10,017 - INFO - Executed SQL from: query_filter.sql
+2024-02-04 01:46:10,018 - INFO - Executed SQL from: query_sorting.sql
+2024-02-04 01:46:10,018 - INFO - Executed SQL from: query_group_by.sql
+2024-02-04 01:46:10,019 - INFO - Executed SQL from: query_join.sql
+2024-02-04 01:46:10,019 - INFO - Program ended

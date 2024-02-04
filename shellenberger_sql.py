@@ -57,7 +57,7 @@ def execute_sql_from_file(db_file, sql_file):
             conn.executescript(sql_script)
             logging.info(f"Executed SQL from: {sql_file}")
     except sqlite3.Error as e:
-        logging.error("Error executing SQL:", sql_file, e)
+        logging.error(f"Error executing SQL: {sql_file}", e)
 
 def main():
     """Main function"""    
@@ -71,7 +71,7 @@ def main():
     db_file = "project.db"
     
     create_database(db_file)
-    # Create database schema and populate with data
+    
     execute_sql_from_file(db_file, 'create_tables.sql')
     insert_data_from_csv(db_file)
     execute_sql_from_file(db_file, 'insert_records.sql')

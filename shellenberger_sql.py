@@ -34,18 +34,18 @@ def create_database():
     except sqlite3.Error as e:
         logging.exception("Error creating the database:", e)
 
-# def create_tables():
-#     """Function to read and execute SQL statements to create tables"""
-#     logging.info("Creating tables")
-#     try:
-#         with sqlite3.connect(db_file) as conn:
-#             sql_file = pathlib.Path("sql", "create_tables.sql")
-#             with open(sql_file, "r") as file:
-#                 sql_script = file.read()
-#             conn.executescript(sql_script)
-#             logging.info("Tables created successfully.")
-#     except sqlite3.Error as e:
-#         logging.exception("Error creating tables:", e)
+def create_tables():
+    """Function to read and execute SQL statements to create tables"""
+    logging.info("Creating tables")
+    try:
+        with sqlite3.connect(db_file) as conn:
+            sql_file = pathlib.Path("sql", "create_tables.sql")
+            with open(sql_file, "r") as file:
+                sql_script = file.read()
+            conn.executescript(sql_script)
+            logging.info("Tables created successfully.")
+    except sqlite3.Error as e:
+        logging.exception("Error creating tables:", e)
 
 # def insert_data_from_csv():
 #     """Function to use pandas to read data from CSV files (in 'data' folder)
@@ -69,7 +69,7 @@ def main():
     print(f'Byline: {utils.company_name}')
     
     create_database()
-    # create_tables()
+    create_tables()
     # insert_data_from_csv()
     
     logging.info("Program ended")

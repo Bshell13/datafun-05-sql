@@ -3,28 +3,50 @@
 -- DROP tables in reverse order of creation 
 -- DROP dependent tables (with foreign keys) first
 
-DROP TABLE IF EXISTS books;
-DROP TABLE IF EXISTS authors;
+DROP TABLE IF EXISTS players;
+DROP TABLE IF EXISTS schools;
 
--- Create the books table
--- Note that the books table has a foreign key to the authors table
--- This means that the books table is dependent on the authors table
--- Be sure to create the standalone authors table BEFORE creating the books table.
+-- Create the schools table 
+-- Note that the schools table has no foreign keys, so it is a standalone table
 
-CREATE TABLE books (
-    book_id TEXT PRIMARY KEY,
-    title TEXT,
-    year_published INTEGER,
-    author_id TEXT,
-    FOREIGN KEY (author_id) REFERENCES authors(author_id)
+CREATE TABLE schools (
+    Rk INTEGER,
+    School TEXT PRIMARY KEY,
+    ConfW INTEGER,
+    ConfL INTEGER,
+    ConfWL REAL,
+    OverallW INTEGER,
+    OverallL INTEGER,
+    OverallWL REAL,
+    PtsPerGOwn REAL,
+    PtsPerGOpp REAL,
+    SRS REAL,
+    SOS REAL
 );
 
--- Create the authors table 
--- Note that the author table has no foreign keys, so it is a standalone table
+-- Create the players table
+-- Note that the players table has a foreign key to the schools table
+-- This means that the players table is dependent on the schools table
+-- Be sure to create the standalone schools table BEFORE creating the players table.
 
-CREATE TABLE authors (
-    author_id TEXT PRIMARY KEY,
-    first_name TEXT,
-    last_name TEXT,
-    year_born INTEGER
+CREATE TABLE players (
+    Rk TEXT INTEGER,
+    Player TEXT,
+    Class TEXT,
+    Pos TEXT,
+    School TEXT PRIMARY KEY,
+    G INTEGER,
+    MinPlayed INTEGER,
+    RB INTEGER,
+    AST INTEGER,
+    STL INTEGER,
+    BLK INTEGER,
+    TOV INTEGER,
+    PF INTEGER,
+    PTS INTEGER,
+    FGPercent REAL,
+    TwoPPercent REAL,
+    ThreePPercent REAL,
+    FTPercent REAL,
+    FOREIGN KEY (School) REFERENCES schools(School)
 );

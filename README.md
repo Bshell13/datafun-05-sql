@@ -1,5 +1,5 @@
 # datafun-05-sql
-In this project, we will be working with Python and SQLite to grasp a statistical inference on some data files. 
+In this project, we will be working with Python and SQLite to grasp a statistical inference on some data files. These files are CSV and are used from [Sports Refrerence](https://www.sports-reference.com/cbb/schools/kansas/men/2024.html) which are current KU baskeball roster and total statistics.
 
 ## Before Starting the Project
 First, we will need to activate a virtual environment and install any exteranl libraires through the terminal. Make sure to create the .gitignore file to report that .venv and .vscode contents are not pushed to your GitHub repo.
@@ -22,6 +22,3 @@ Lastly, do not forget to create your main Python script. This is where we will u
 ```shell
 ni shellenberger_sql.py
 ```
-
-## Logging
-In the root project, there will be a txt file for logging each major function. In each major function, a piece of code will be executed `logging.info("message to display")`. This will print to the txt file with some information about when the function was called. There might be some other information if an exception is called during the program running.

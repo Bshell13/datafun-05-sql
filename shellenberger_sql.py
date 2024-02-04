@@ -47,30 +47,30 @@ def create_tables():
     except sqlite3.Error as e:
         logging.exception("Error creating tables:", e)
 
-# def insert_data_from_csv():
-#     """Function to use pandas to read data from CSV files (in 'data' folder)
-#     and insert the records into their respective tables."""
-#     logging.info("Inserting data from CSV files")
-#     try:
-#         author_data_path = pathlib.Path("data", "authors.csv")
-#         book_data_path = pathlib.Path("data", "books.csv")
-#         authors_df = pd.read_csv(author_data_path)
-#         books_df = pd.read_csv(book_data_path)
-#         with sqlite3.connect(db_file) as conn:
-#             # use the pandas DataFrame to_sql() method to insert data
-#             # pass in the table name and the connection
-#             authors_df.to_sql("authors", conn, if_exists="replace", index=False)
-#             books_df.to_sql("books", conn, if_exists="replace", index=False)
-#             logging.info("Data inserted successfully.")
-#     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
-#         logging.exception("Error inserting data:", e)
+def insert_data_from_csv():
+    """Function to use pandas to read data from CSV files (in 'data' folder)
+    and insert the records into their respective tables."""
+    logging.info("Inserting data from CSV files")
+    try:
+        players_data_path = pathlib.Path("data", "players.csv")
+        schools_data_path = pathlib.Path("data", "schools.csv")
+        players_df = pd.read_csv(players_data_path)
+        schools_df = pd.read_csv(schools_data_path)
+        with sqlite3.connect(db_file) as conn:
+            # use the pandas DataFrame to_sql() method to insert data
+            # pass in the table name and the connection
+            players_df.to_sql("players", conn, if_exists="replace", index=False)
+            schools_df.to_sql("schools", conn, if_exists="replace", index=False)
+            logging.info("Data inserted successfully.")
+    except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
+        logging.exception("Error inserting data:", e)
 
 def main():
     print(f'Byline: {utils.company_name}')
     
     create_database()
     create_tables()
-    # insert_data_from_csv()
+    insert_data_from_csv()
     
     logging.info("Program ended")
 

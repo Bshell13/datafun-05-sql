@@ -54,3 +54,11 @@
 2024-02-04 00:27:00,739 - INFO - Creating tables
 2024-02-04 00:27:00,806 - INFO - Tables created successfully.
 2024-02-04 00:27:00,806 - INFO - Program ended
+2024-02-04 00:34:12,313 - INFO - Program started
+2024-02-04 00:34:12,317 - INFO - Creating database
+2024-02-04 00:34:12,318 - INFO - Database created successfully.
+2024-02-04 00:34:12,318 - INFO - Creating tables
+2024-02-04 00:34:12,387 - INFO - Tables created successfully.
+2024-02-04 00:34:12,387 - INFO - Inserting data from CSV files
+2024-02-04 00:34:12,527 - INFO - Data inserted successfully.
+2024-02-04 00:34:12,528 - INFO - Program ended

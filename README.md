@@ -24,6 +24,8 @@ mkdir data
 mkdir sql
 ```
 
+If you are using VS Code, You will need to install the SQLite Viewer to view the database.
+
 ## Gathering Data
 I gathered my data from the following website which is a hub for sports statistics. The link will take you to the page that I used for this project.
 -  [Sports Refrerence](https://www.sports-reference.com/cbb/conferences/big-12/men/2024-stats.html)

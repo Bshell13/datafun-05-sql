@@ -41,3 +41,9 @@ ni name_of_query.sql
 ni file_name.py
 ```
 In this script, I created a database, tables for the database, and inserted the data into the tables. For each function there will be a log on whether it has succeeded for failed. The file for the log is log.txt.
+
+## Inserting Data
+This is the different CSV files I am inserting into the database.
+[Players](data\players.csv)
+[Schools](data\schools.csv)
+![This is the function that I used to insert the data into the database.](Capture.png)
